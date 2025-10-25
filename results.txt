@@ -1,0 +1,31 @@
+================================================================================
+ECOVISION PHASE 2: ATTENTION-AUGMENTED MODEL METRICS
+================================================================================
+
+Training Date: 2025-10-25 17:16:16
+
+KEY HACKATHON UPGRADES:
+  ✓ Attention-Gated UNet-style Decoder
+  ✓ Pretrained ResNet34 Backbone
+  ✓ Transformer-based Feature Fusion
+  ✓ Enhanced Photometric Augmentations
+  ✓ CosineAnnealingLR Scheduler
+
+CONFIGURATION:
+  Backbone: resnet34
+  Batch Size: 16
+  Initial LR: 0.0001
+  Optimizer: AdamW
+  Epochs Trained: 71
+
+FINAL PERFORMANCE (on Test Set):
+  Best Validation IoU: 0.4782
+  Test IoU: 0.3228
+  Precision: 0.6854
+  Recall: 0.3767
+  F1-Score: 0.4857
+
+TRAINING HISTORY:
+  Final Train Loss: 0.2456
+  Final Val Loss: 0.3098
+  Best Val IoU: 0.4782
